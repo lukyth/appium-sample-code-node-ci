@@ -1,0 +1,16 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/appium-sample-code-node-ci
+    docker:
+      - image: node:7.9.0
+    steps:
+      - checkout
+      - run:
+          name: Install dependencies
+          command: npm install
+      - run: 
+          name: Run test
+          command: |
+            npm run android-simple
+            npm run ios-simple
