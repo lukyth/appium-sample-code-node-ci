@@ -19,7 +19,7 @@ describe("android webview", function () {
 
     var desired = process.env.npm_package_config_sauce ?
       _.clone(require("./helpers/caps").android18) :
-      _.clone(require("./helpers/caps").android19);
+      _.clone(require("./helpers/caps").android25);
     desired.app = require("./helpers/apps").selendroidTestApp;
     if (process.env.npm_package_config_sauce) {
       desired.name = 'android - webview';
