@@ -1,6 +1,6 @@
 
 exports.local = {
-  host: 'localhost',
+  host: 'https://7e8a2dda.ngrok.io',
   port: 4723
 };
 
