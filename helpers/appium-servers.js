@@ -1,7 +1,7 @@
 
 exports.local = {
-  host: 'https://7e8a2dda.ngrok.io',
-  port: 4723
+  host: '2443b31e.ngrok.io',
+  port: 80
 };
 
 exports.sauce = {
